@@ -144,6 +144,8 @@
       { nome: "walisson", ingressoImg: "walisson.png" }
     ];
 
+    console.log(convidados);
+
     function confirmarPresenca() {
       const nome = document.getElementById("nome").value.trim().toLowerCase();
       const convidado = convidados.find(c => c.nome === nome);
