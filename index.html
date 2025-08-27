@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,8 @@
     }
 
     body {
-      background-color: #ff1493; /* Rosa Pink */
+      background-color: #ff1493;
+      /* Rosa Pink */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,7 +28,7 @@
       background: #fff0f8;
       padding: 40px 30px;
       border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
       text-align: center;
       width: 380px;
     }
@@ -82,7 +84,7 @@
       border: 2px solid #ffe0f0;
       border-radius: 15px;
       background: #fff0f8;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
 
     #qrContainer h2 {
@@ -93,7 +95,7 @@
     #qrContainer img {
       max-width: 250px;
       border-radius: 15px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     }
 
     #qrContainer p {
@@ -108,14 +110,15 @@
       border: 4px solid #ff66aa;
       border-radius: 15px;
       max-width: 100%;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     }
   </style>
 </head>
+
 <body>
 
   <div class="container">
-    <h1>Confirme sua Presença  </h1>
+    <h1>Confirme sua Presença </h1>
     <input type="text" id="nome" placeholder="Digite seu nome">
     <br>
     <button class="confirmar" onclick="confirmarPresenca()">Eu vou</button>
@@ -136,10 +139,10 @@
 
   <script>
     const convidados = [
-      { nome: "maria", ingressoImg: "ingressos.png/maria.png" },
-      { nome: "beneval", ingressoImg: "ingressos.png/beneval.png" },
-      { nome: "cleiton", ingressoImg: "ingressos.png/cleiton.png" },
-      { nome: "walisson", ingressoImg: "ingressos.png/walisson.png" }
+      { nome: "maria", ingressoImg: "maria.png" },
+      { nome: "beneval", ingressoImg: "beneval.png" },
+      { nome: "cleiton", ingressoImg: "cleiton.png" },
+      { nome: "walisson", ingressoImg: "walisson.png" }
     ];
 
     function confirmarPresenca() {
@@ -172,4 +175,5 @@
   </script>
 
 </body>
+
 </html>
