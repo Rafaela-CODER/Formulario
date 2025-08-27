@@ -1,0 +1,97 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #ff1493; /* Rosa Pink */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 380px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #000000; /* Letras pretas */
+  margin-bottom: 25px;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #000;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #000;
+}
+
+button.confirmar {
+  background: #ffd1e9; /* rosa claro */
+}
+
+button.confirmar:hover {
+  background: #ffb3d1;
+}
+
+button.cancelar {
+  background: #ff7fbf; /* rosa mais escuro */
+}
+
+button.cancelar:hover {
+  background: #ff66aa;
+}
+
+#qrContainer {
+  display: none;
+  margin-top: 25px;
+  padding: 20px;
+  border: 2px solid #ffe0f0;
+  border-radius: 15px;
+  background: #fff0f8;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#qrContainer h2 {
+  color: #000; /* título preto */
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#qrContainer img {
+  max-width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+#qrContainer p {
+  margin-top: 12px;
+  color: #000; /* mensagem preta */
+  font-weight: bold;
+  font-size: 14px;
+}
